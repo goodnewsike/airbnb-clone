@@ -13,7 +13,7 @@ const Product = ({ productData, id, imgs, location, rating, name, availableDate,
 
    return (
       <div key={id} className="product col-md-3 col-sm-6 col-12">
-         <a href="https://airbnb.com" target="_blank" rel="noreferrer" className="">
+         {/* <a href="https://airbnb.com" target="_blank" rel="noreferrer" className=""> */}
             <div className="product__inner mb-5">
                <div className="img__wrapper mb-2">
                   <Swiper
@@ -27,7 +27,7 @@ const Product = ({ productData, id, imgs, location, rating, name, availableDate,
                      <div onClick={() => setLike((t) => !t)} className="heart">
                         {like ? (
                            <Image
-                              src="/icons/unlike.svg"
+                              src="/icons/like.svg"
                               height="100%"
                               width="100%"
                               // loader={GraphCMSImageLoader}
@@ -87,7 +87,7 @@ const Product = ({ productData, id, imgs, location, rating, name, availableDate,
                <p className="date">{availableDate}</p>
                <p className="cost"><span className="">${cost}</span> night</p>
             </div>
-         </a>
+         {/* </a> */}
       </div>
    );
 };

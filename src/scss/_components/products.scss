@@ -194,6 +194,7 @@
    .product {
       a {
          color: $color-3;
+         z-index: 1;
       }
       .product__inner {
          .img__wrapper {
@@ -260,7 +261,7 @@
                   position: absolute;
                   top: var(--val-space);
                   right: var(--val-space);
-                  z-index: 10;
+                  z-index: 1000;
                }
                .swiper-pagination-bullet {
                   margin-left: .1rem;
