@@ -1,0 +1,49 @@
+footer {
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   height: 3rem;
+   border-top: $border;
+   z-index: 502;
+   background-color: $white;
+   .privacy {
+      span, a {
+         font-size: .91rem;
+      }
+      a {
+         position: relative;
+         color: $color-3;
+         margin-left: 1.2rem;
+         transition: $trans;
+         &::before {
+            --val: 2px;
+            content: '';
+            position: absolute;
+            height: var(--val);
+            width: var(--val);
+            border-radius: 50%;
+            background-color: $color-3;
+            right: calc(100% + .5rem);
+            top: 50%;
+         }
+         &:hover {
+            text-decoration: underline;
+         }
+      }
+   }
+   .support {
+      button {
+         color: $color-3;
+      }
+      .langImg, .arrowUpIcon {
+         --value: 1rem;
+         height: var(--value);
+         width: var(--value);
+      }
+      .language, .currency, .support__resources {
+         font-size: .9rem;
+         font-weight: 600;
+         color: $color-3;
+      }
+   }
+}

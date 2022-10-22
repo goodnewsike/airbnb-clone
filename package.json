@@ -1,0 +1,30 @@
+{
+  "name": "zst-technologies-test-airbnb-clone",
+  "homepage": "/",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.2",
+    "classnames": "^2.3.2",
+    "mapbox-gl": "^2.10.0",
+    "next": "12.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.6.0",
+    "react-map-gl": "^7.0.19",
+    "sass": "^1.55.0",
+    "swiper": "^8.4.4"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^6.5.0",
+    "eslint": "8.25.0",
+    "eslint-config-next": "12.3.1"
+  }
+}
