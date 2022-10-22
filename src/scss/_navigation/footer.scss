@@ -6,6 +6,12 @@ footer {
    border-top: $border;
    z-index: 502;
    background-color: $white;
+   @media screen and (max-width: 744px) {
+      display: none;
+   }
+   @media screen and (min-width: 745px) {
+      display: block;
+   }
    .privacy {
       span, a {
          font-size: .91rem;

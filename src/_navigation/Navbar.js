@@ -36,9 +36,9 @@ const Pill = () => {
 const Navbar = () => {
    return (
       <div className="container-fluid nav__bar">
-         <div className="container h-100 p-0 d-flex align-items-center justify-content-between">
-            <div className="logo">
-               <a href="https://airbnb.com" target="_blank" rel="noreferrer" className="">
+         <div className="container d-flex h-100 p-0 align-items-center justify-content-between">
+            <div className="logo d-none d-md-inline-block">
+               <a href="https://airbnb.com" target="_blank" rel="noreferrer" className="d-inline-flex">
                   <AirbnbLogo />
                </a>
             </div>
@@ -60,7 +60,7 @@ const Navbar = () => {
                   />
                </div>
             </div>
-            <div className="actions d-flex align-items-center justify-content-end">
+            <div className="actions d-none d-md-flex align-items-center justify-content-end">
                <button className="become__host">Become a Host</button>
                <div className="globeIcon me-2">
                   <Image

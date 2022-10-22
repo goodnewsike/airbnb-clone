@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { useState } from 'react';
 // import Image from 'next/image';
 
-import { Products } from '../src/_components';
+import { LoginIcon, Products, SearchIcon, WishlistsIcon } from '../src/_components';
 import { Footer, Navbar } from '../src/_navigation';
 
 export default function Home() {
@@ -33,6 +33,20 @@ export default function Home() {
         <Products switchToMap={switchToMap} setSwitchToMap={setSwitchToMap} />
       </main>
 
+      <div className="forMobileView">
+        <button className="explore">
+          <SearchIcon />
+          <span className="">Explore</span>
+        </button>
+        <button className="wishlists">
+          <WishlistsIcon />
+          <span className="">Wishlists</span>
+        </button>
+        <button className="login">
+          <LoginIcon />
+          <span className="">Log in</span>
+        </button>
+      </div>
       {!switchToMap && <Footer />}
     </div>
   )

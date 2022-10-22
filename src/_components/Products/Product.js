@@ -12,7 +12,7 @@ const Product = ({ productData, id, imgs, location, rating, name, availableDate,
    const [like, setLike] = useState();
 
    return (
-      <div key={id} className="product col-md-3">
+      <div key={id} className="product col-md-3 col-sm-6 col-12">
          <a href="https://airbnb.com" target="_blank" rel="noreferrer" className="">
             <div className="product__inner mb-5">
                <div className="img__wrapper mb-2">

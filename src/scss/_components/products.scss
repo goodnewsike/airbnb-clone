@@ -31,11 +31,17 @@
          --value: 3rem;
          height: var(--value);
          width: var(--value);
-         display: flex;
+         // display: flex;
          align-items: center;
          justify-content: center;
          z-index: 2;
          transition: $trans;
+         @media screen and (max-width: 744px) {
+            display: none;
+         }
+         @media screen and (min-width: 745px) {
+            display: flex;
+         }
          .tab__image {
             transform: scale(.25);
          }
@@ -237,8 +243,9 @@
                .img {
                   border-radius: 12px;
                   overflow: hidden;
-                  height: 17.75rem !important;
-                  width: 100% !important;
+                  // height: 17.75rem !important;
+                  // width: 100% !important;
+                  aspect-ratio: 1 / 1;
                   background-color: #777;
                   span {
                      height: 100% !important;

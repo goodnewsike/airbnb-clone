@@ -30,7 +30,7 @@ const Products = ({switchToMap, setSwitchToMap}) => {
    }, []);
 
    return (
-      <div className="container-fluid products p-0 pb-5 position-relative">
+      <div className="container-fluid products pb-5 position-relative">
 
          <ProductTabs backgroundColor={backgroundColor} activeTab={activeTab} setActiveTab={setActiveTab} />
 

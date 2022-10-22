@@ -45,6 +45,11 @@ html {
             max-width: 1270px;
         }
       }
+      @media (max-width: 991px) {
+        .container-xl, .container-lg, .container-md, .container-sm, .container {
+            max-width: 95%;
+        }
+      }
     }
 
     // &::-webkit-scrollbar {

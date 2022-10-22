@@ -6,6 +6,16 @@
    left: 0;
    z-index: 501;
    background-color: $white;
+   // @media screen and (max-width: 744px) {
+   //    .nav__bar__inner {
+   //       display: none;
+   //    }
+   // }
+   // @media screen and (min-width: 745px) {
+   //    .nav__bar__inner {
+   //       display: flex;
+   //    }
+   // }
    .logo, .actions {
       width: 30%;
       .logoImage {

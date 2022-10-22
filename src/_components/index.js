@@ -51,3 +51,66 @@ export const ListIcon = () => {
     </svg>
   )
 };
+
+export const SearchIcon = () => {
+   return (
+    <svg
+      viewBox="0 0 32 32"
+      xmlns="http://www.w3.org/2000/svg"
+      aria-hidden="true"
+      style={{
+        height: 24,
+        width: 24
+      }}
+      display="block"
+      fill="none"
+      stroke="currentcolor"
+      strokeWidth={4}
+      overflow="visible"
+      // {...props}
+    >
+      <path d="M13 24c6.075 0 11-4.925 11-11S19.075 2 13 2 2 6.925 2 13s4.925 11 11 11zm8-3l9 9" />
+    </svg>
+  )
+};
+
+export const WishlistsIcon = () => {
+   return (
+    <svg
+      viewBox="0 0 32 32"
+      xmlns="http://www.w3.org/2000/svg"
+      aria-hidden="true"
+      style={{
+        height: 24,
+        width: 24
+      }}
+      display="block"
+      fill="none"
+      stroke="currentcolor"
+      strokeWidth={2.66667}
+      overflow="visible"
+      // {...props}
+    >
+      <path d="M16 28c7-4.733 14-10 14-17a6.977 6.977 0 00-2.05-4.95A6.981 6.981 0 0023 4a6.979 6.979 0 00-4.949 2.05L16 8.101 13.95 6.05A6.981 6.981 0 009 4a6.979 6.979 0 00-4.949 2.05A6.978 6.978 0 002 11c0 7 7 12.267 14 17z" />
+    </svg>
+  )
+};
+
+export const LoginIcon = () => {
+   return (
+    <svg
+      viewBox="0 0 32 32"
+      xmlns="http://www.w3.org/2000/svg"
+      aria-hidden="true"
+      style={{
+        height: 24,
+        width: 24
+      }}
+      display="block"
+      fill="currentcolor"
+      // {...props}
+    >
+      <path d="M16 1c8.284 0 15 6.716 15 15 0 8.284-6.716 15-15 15-8.284 0-15-6.716-15-15C1 7.716 7.716 1 16 1zm0 8a5 5 0 00-2 9.584v2.098l-.15.028a11.007 11.007 0 00-6.936 4.587A12.955 12.955 0 0016 29c3.536 0 6.741-1.411 9.085-3.701a10.998 10.998 0 00-6.93-4.587L18 20.683l.001-2.1a5.003 5.003 0 002.994-4.355L21 14a5 5 0 00-5-5zm0-6C8.82 3 3 8.82 3 16c0 2.905.953 5.587 2.562 7.75 1.421-1.913 3.34-3.4 5.539-4.295l.348-.136-.023-.019a6.997 6.997 0 01-2.42-5.029L9 14a7 7 0 1111.775 5.12l-.225.2.045.016a13.025 13.025 0 015.843 4.413A12.935 12.935 0 0029 16c0-7.18-5.82-13-13-13z" />
+    </svg>
+  )
+};
